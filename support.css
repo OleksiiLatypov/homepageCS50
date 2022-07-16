@@ -16,7 +16,7 @@ ul{
 
 body{
   min-height: 100vh;
-  background: url(https://github.com/OleksiiLatypov/homepageCS50/blob/bb7bfa0b956e1cb2812137f343988e0734b50284/image.jpeg) no-repeat center; 
+  background: url(https://raw.githubusercontent.com/OleksiiLatypov/homepageCS50/main/image.jpeg) no-repeat center; 
   background-size: cover;
   display: flex;
 
