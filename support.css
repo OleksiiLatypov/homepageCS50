@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cards{
+  position: fixed;
+  right: 15%;
+  bottom: 0;
+}
+ul{
+  list-style: none;
+}
+
+body{
+  min-height: 100vh;
+  background: url(../image.jpeg) no-repeat center; 
+  background-size: cover;
+  display: flex;
+
+}
+h2{
+  font-size: 56px;
+}
+
+.flag1{
+    position: fixed;
+    top: 3%;
+    right: 0%;
+    width: 100%;
+    color: rgb(249, 250, 169);
+    text-align: center;
+    background-color: rgb(30, 125, 202);
+    opacity: 0.95;
+    font-size: 23px;
+    height: 25%;
+}
+.transbox{
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  font-size: 56px;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
