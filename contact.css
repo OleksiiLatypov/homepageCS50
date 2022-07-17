@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .block {
+    position: fixed;
+    height: 10%;
+    width: 50%;
+    top: 49%;
+    bottom: 16%;
+    background-color: #9d9dc7;
+    z-index: -1;
+  }
+  .cards{
+    position: fixed;
+    right: 15%;
+    bottom: 0;
+    background-color:rgb(34, 34, 31);
+    height:45%;
+    width: 50%;
+  }
+
+  ul{
+    list-style: none;
+  }
+  
+  body{
+    min-height: 100vh;
+    background: url(img.jpg) no-repeat center;
+    /*background: url(../fone.jpg);*/
+    background-size: cover;
+    display: flex;
+
+  
+  }
+  h2{
+    font-size: 56px;
+    text-align: left;
+  }
+  
+  .flag1 {
+    position: fixed;
+    top: 11%;
+    right: 0%;
+    width: 80%;
+    color: rgb(34, 34, 31);
+    text-align: center;
+    background-color: rgb(70, 99, 122);
+    opacity: 0.95;
+    font-size: 23px;
+    height: 15%;
+}
+  .transbox{
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    text-align: center;
+  }
+  
+  a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 56px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+.phone{
+    color: white;
+}
