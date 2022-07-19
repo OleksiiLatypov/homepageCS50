@@ -6,9 +6,10 @@
 }
 
 .cards{
-  position: fixed;
-  right: 15%;
-  bottom: 0;
+  position: absolute;
+  right: 25%;
+  bottom: 5%;
+  text-align: left;
 }
 ul{
   list-style: none;
@@ -16,7 +17,8 @@ ul{
 
 body{
   min-height: 100vh;
-  background: url('https://raw.githubusercontent.com/OleksiiLatypov/homepageCS50/main/image.jpeg') no-repeat center; 
+  /*background: url(../image.jpeg) no-repeat center;*/
+  background: url('https://raw.githubusercontent.com/OleksiiLatypov/homepageCS50/main/image.jpeg'); 
   background-size: cover;
   display: flex;
 
@@ -44,23 +46,31 @@ h2{
   text-align: center;
 }
 
+
+
 a:link {
   color: white;
   text-decoration: none;
   font-size: 56px;
+  /*text-shadow: 4px 4px 8px #000000;*/
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: rgb(255, 255, 251);
 }
 
-/* mouse over link */
+ 
 a:hover {
-  color: hotpink;
+  color: rgb(248, 248, 242);
 }
 
-/* selected link */
 a:active {
   color: white;
+}
+#cs50{
+  vertical-align: middle;
+}
+li{
+  text-shadow: 4px 4px 8px #000000;
 }
